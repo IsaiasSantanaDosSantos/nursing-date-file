@@ -6,50 +6,36 @@
                 "reacao_adversa":"Problemas renais",
                 "principio_ativo":"fórmula mágica"
             }, 
-            "via_adm": [
+            "via_adm": 
               {
                 "oral":{
-                  "typo":[
-                    {
-                      "comprimido":{
-                        "embalagem":"capsulas",
-                        "quantidade":"20 comprimidos"
-                      },
-                      "liquido":{
-                        "embalagem":"fraco",
-                        "quantidade":"120 ml"
-                      }
+                    "comprimido":{
+                    "embalagem":"capsulas",
+                    "quantidade":"20 comprimidos"
+                    },
+                    "liquido":{
+                    "embalagem":"fraco",
+                    "quantidade":"120 ml"
                     }
-                  ]
                 },
-                "indovenoso":[
+                "indovenoso":
                   {
-                    "typo": [
-                      {
-                        "ampola":{
-                          "quantidade":"20 ml",
-                          "dosagem":"1 miligrama a cada 5 quilos",
-                          "local_indicado":"direto no caração"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "intramuscular":[
+                    "ampola":{
+                        "quantidade":"20 ml",
+                        "dosagem":"1 miligrama a cada 5 quilos",
+                        "local_indicado":"direto no caração"
+                    }
+                  },
+                "intramuscular":
                   {
-                    "typo":[
-                      {
-                        "ampola":{
-                          "quantidade":"50 ml",
-                          "dosagem":"1,5 miligrama a cada 5 quilos"
-                        }
-                      }
-                    ]
+                    "ampola":{
+                        "quantidade":"50 ml",
+                        "dosagem":"1,5 miligrama a cada 5 quilos"
+                    }
                   }
-                ]
               }
               
-            ]
+            
 
         }
     ]
